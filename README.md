@@ -4,9 +4,9 @@ This public github repository contains some of the code for the paper *Finding t
 
 All of the code is written using Python 3.8 in Jupyter notebooks. There are three notebooks which address different aspects of the project, and they follow a sequential order, loading pickles from the previous notebooks:  
 
-  - **1_COCA_dataset.ipynb** - creating of the 'key families' dataset based on COCA frequency information
-  - **2_PELIC_dataset.ipynb** - collecting occurrences of the 'key families' items in PELIC
-  - **3_Concordances.ipynb** - creating a concordancer and dataframe based on the PELIC dataset
+  - [**1_COCA_dataset.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/1_COCA_dataset.ipynb) - creating of the 'key families' dataset based on COCA frequency information
+  - [**2_PELIC_dataset.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/2_PELIC_dataset.ipynb) - collecting occurrences of the 'key families' items in PELIC
+  - [**3_Concordances.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/3_Concordances.ipynb) - creating a concordancer and dataframe based on the PELIC dataset
 
 #### Important notes:
 - This code in intended to make public the dataset so that others may use it for replication or research. The code for the statistical analysis of the paper is not included, e.g. in relation to the human annotations, dictionary/corpus look ups, or Mutual Information measurements.
