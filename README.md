@@ -1,10 +1,13 @@
 <h1>Finding the sweet spot: Learners’ productive knowledge of mid-frequency lexical items</h1>
 
-This public github repository contains some of the code for the paper *Finding the sweet spot: Learners’ productive knowledge of mid-frequency lexical items* by Ben Naismith and Alan Juffs, members of the [University of Pittsburgh Data Mining Research Group](https://github.com/ELI-Data-Mining-Group) who work primarily with the [Pittsburgh English Language Institute Corpus (PELIC)](https://eli-data-mining-group.github.io/Pitt-ELI-Corpus/).
+**Recommended citation:**  
+Naismith, B., & Juffs, A. (2021). Finding the sweet spot: Learners’ productive knowledge of mid-frequency lexical items. _Language Teaching Research_. https://doi.org/10.1177/13621688211020412
 
-All of the code is written using Python 3.8 in Jupyter notebooks. There are three notebooks which address different aspects of the project, and they follow a sequential order, loading pickles from the previous notebooks:  
+This public GitHub repository contains some of the code for the paper cited above. The authors are members of the [University of Pittsburgh Data Mining Research Group](https://github.com/ELI-Data-Mining-Group) who work with the [Pittsburgh English Language Institute Corpus (PELIC)](https://eli-data-mining-group.github.io/Pitt-ELI-Corpus/).
 
-  - [**1_COCA_dataset.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/1_COCA_dataset.ipynb) - creating of the 'key families' dataset based on COCA frequency information
+All of the code is written using Python 3.8 in Jupyter notebooks. There are three notebooks which address different aspects of the project, and they follow a sequential order, loading pickle files from the previous notebooks:  
+
+  - [**1_COCA_dataset.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/1_COCA_dataset.ipynb) - creating the 'key families' dataset based on COCA frequency information
   - [**2_PELIC_dataset.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/2_PELIC_dataset.ipynb) - collecting occurrences of the 'key families' items in PELIC
   - [**3_Concordances.ipynb**](https://github.com/ELI-Data-Mining-Group/Lexical_depth_Naismith_et_al_2020/blob/master/3_Concordances.ipynb) - creating a concordancer and dataframe based on the PELIC dataset
 
